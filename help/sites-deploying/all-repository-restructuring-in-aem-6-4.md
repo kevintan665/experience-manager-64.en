@@ -66,9 +66,11 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
      <li>Edit the Workflow Model using AEM's Workflow Model Editor at AEM &gt; Tools &gt; Workflow &gt; Models.</li> 
      <li>When migrating modified AEM-provided Workflow Models
       <ol> 
-       <li>With the Workflow Model Editor open, modify the browser's address URL, and replace the path segment /libs/settings/workflow/models with /etc/workflow/models.
+       <li>With the Workflow Model Editor open, modify the browser's address URL, and replace the path segment /etc/workflow/models with /libs/settings/workflow/models.
         <ul> 
-         <li>For example, change: <em>http://localhost:4502/editor.html<strong>/libs/settings/workflow/models</strong>/dam/update_asset.html</em> to <em>http://localhost:4502/editor.html<strong>/etc/workflow/models</strong>/dam/update_asset.html</em></li> 
+         <li>For example, change: 
+          <em>http://localhost:4502/editor.html<strong>/etc/workflow/models</strong>/dam/update_asset.html</em> to
+          <em>http://localhost:4502/editor.html<strong>/libs/settings/workflow/models</strong>/dam/update_asset.html</em>              </li> 
         </ul> </li> 
       </ol> </li> 
      <li>Enable Edit mode in the Workflow Model Editor which will copy the Workflow Model definition to /conf/global/workflow/models.</li> 
